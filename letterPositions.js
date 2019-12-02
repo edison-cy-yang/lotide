@@ -37,3 +37,5 @@ assertArraysEqual(eqArrays(result["h"], [0]), true);
 assertArraysEqual(eqArrays(result["e"], [1]), true);
 assertArraysEqual(eqArrays(result["l"], [2,3]), true);
 assertArraysEqual(eqArrays(result["o"], [4]), true);
+
+module.exports = letterPositions;

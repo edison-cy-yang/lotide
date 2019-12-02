@@ -26,3 +26,5 @@ let letters = countLetters("lighthouse in the house");
 assertEqual(letters["i"], 2);
 assertEqual(letters["h"], 4);
 assertEqual(letters["n"], 1);
+
+module.exports = countLetters;

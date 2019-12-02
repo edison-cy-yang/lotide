@@ -85,3 +85,5 @@ assertObjectsEqual({ a: { z: 1 }, b: 2 }, { a: { z: 1 }, b: 2 });
 
 assertObjectsEqual({ a: { y: 0, z: 1 }, b: 2 }, { a: { y: 0, z: 1 }, b: 2 });
 assertObjectsEqual({y:0,z:1}, {y:0, z:1});
+
+module.exports = assertObjectsEqual;
