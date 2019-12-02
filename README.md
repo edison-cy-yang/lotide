@@ -26,6 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* `assertArraysEqual(actual, expected)`: assert one if two arrays are identical
+* `assertEqual(actual, expected)`: assert if two values are identical
+* `assertObjectsEqual(actual, expected)`: assert if two objects are identical
